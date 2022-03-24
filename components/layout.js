@@ -4,7 +4,7 @@ import Navbar from './navbar'
 const Layout = ({children}) => {
     return (
         <div>
-            <Navbar></Navbar>
+            <Navbar clas="bg-black text-white"></Navbar>
             {children}
         </div>
     );
